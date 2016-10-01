@@ -1,8 +1,64 @@
-.navbar-default {
+body {
     background-color: white;
-    border-color: white;
+    width: 100%;
+    margin: auto;
 }
 
-.navbar {
-    border-radius: 0px;
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.header {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+}
+
+.header-right {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 250px;
+    background-color: lightgreen;
+}
+
+.header-gmail {
+    display: inline;
+}
+
+.header-images {
+    display: inline;
+}
+
+.header-login {
+    display: inline;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    margin: auto;
+}
+
+.footer-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    background-color: lightgreen;
+}
+
+.footer-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    background-color: lightgreen;
 }
