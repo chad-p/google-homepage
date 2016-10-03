@@ -1,77 +1,86 @@
 body {
-  background-color: #fff;
-  font-family: arial,sans-serif;
-  margin: auto;
-  width: 100%;
+    background-color: #fff;
+    font-family: arial,sans-serif;
+    margin: auto;
+    width: 100%;
 }
 
-nav a,
-nav a:hover,
-nav a:visited,
-nav a:focus {
-  color: inherit;
-  text-decoration: none;
+a,
+a:focus,
+a:hover,
+a:visited {
+    color: inherit;
+    text-decoration: none;
 }
 
-nav .header {
-  height: 50px;
-  margin: auto;
-  position: relative;
-  width: 100%;
+.header {
+    height: 50px;
+    margin: auto;
+    position: relative;
+    width: 100%;
 }
 
-nav .header-right {
-  background-color: #fff;
-  position: absolute;
-  right: 0;
-  top: 20px;
-  width: 250px;
+.header-right {
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 250px;
 }
 
-nav .header-gmail {
-  display: inline;
-  padding-right: 6px;
+.header-gmail {
+    display: inline;
+    padding-right: 6px;
 }
 
-nav .header-images {
-  display: inline;
-  padding-left: 6px;
+.header-images {
+    display: inline;
+    padding-left: 6px;
 }
 
-nav .header-login {
-  display: inline;
-  padding-left: 50px;
+.header-login {
+    display: inline;
+    padding-left: 50px;
 }
 
-nav .login {
-  background-color: blue;
-  border: 0;
-  color: #fff;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 6px 10px 4px;
+.login {
+    background-color: blue;
+    border: 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 10px 4px;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+}
+
+.main-center {
+    margin: 20%;
 }
 
 .footer {
-  bottom: 0;
-  height: 50px;
-  margin: auto;
-  position: absolute;
-  width: 100%;
+    bottom: 0;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    width: 100%;
 }
 
 .footer-right {
-  background-color: #fff;
-  bottom: 0;
-  position: absolute;
-  right: 0;
-  width: 250px;
+    background-color: #fff;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    width: 250px;
 }
 
 .footer-left {
-  background-color: #fff;
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  width: 250px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 250px;
 }
