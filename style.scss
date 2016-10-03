@@ -1,0 +1,84 @@
+// compileExpanded: style.css
+
+$color-body-background: #fff;
+$color-links-background: #fff;
+
+body {
+  background-color: $color-body-background;
+  font-family: arial,sans-serif;
+  margin: auto;
+  width: 100%;
+}
+
+nav {
+  a,
+  a:hover,
+  a:visited,
+  a:focus {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .header {
+    height: 50px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+  }
+
+  .header-right {
+    background-color: $color-links-background;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 250px;
+  }
+
+  .header-gmail {
+    display: inline;
+    padding-right: 6px;
+  }
+
+  .header-images {
+    display: inline;
+    padding-left: 6px;
+  }
+
+  .header-login {
+    display: inline;
+    padding-left: 50px;
+  }
+
+  .login {
+    background-color: blue;
+    border: 0;
+    color: $color-body-background;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 10px 4px;
+  }
+}
+
+.footer {
+  bottom: 0;
+  height: 50px;
+  margin: auto;
+  position: absolute;
+  width: 100%;
+}
+
+.footer-right {
+  background-color: $color-links-background;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  width: 250px;
+  }
+
+.footer-left {
+  background-color: $color-links-background;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 250px;
+}
